@@ -86,7 +86,7 @@ posibles_outliers_SB <- ifelse(data$`Slice Bandwidth (Mbps)`< 62, data$`Slice Ba
 posibles_outliers_SB <- posibles_outliers_SB[!is.na(posibles_outliers_SB)]
 
 sort(posibles_outliers_SB) # no hay nignun valor que destace mucho
-
+# jasdja
 
 ########### VALORES MISSINGS
 miss_case_summary(data)
